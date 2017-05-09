@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LDBusMediatorLibrary_Example' do
+  pod 'LDBusMediatorLibrary', :path => '../'
+
+  target 'LDBusMediatorLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

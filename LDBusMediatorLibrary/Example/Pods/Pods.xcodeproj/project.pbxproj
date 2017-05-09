@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0399CA9EB9DB5F20E6F429B0D51EB337 /* GLXModuleMemberVOPrt.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F305B22335227FE2053BFCA6E0E325 /* GLXModuleMemberVOPrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B9ADB339C4ADB72B22AE659C7B85F0E /* GLXPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2925241BFD44BF974A4DAE3D161213 /* GLXPopMenuView.m */; };
+		0BE071B09C7CDD93BD90BCF43C85F4E7 /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 46ACFDE5C7FA296F1D37170D599A0051 /* UIColor+Custom.m */; };
+		0DB6798D5441A367A9DE484932260591 /* UIColor+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B616D9E71DA86542B46ADDAB32370BC /* UIColor+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0BEC93229631D49A8CA12CAED8E24A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		21C4EFC1FE3BCB3300DF7AABA63AE3AC /* NSString+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 8981D94E06E024FF1C9D0CE6AE1088F2 /* NSString+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C51C4F51F497654929995861A98D21 /* LDBusNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = E87CF77B803111F0A3C2CB777AD37A16 /* LDBusNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2531D4307AD0DB4564CB13804AF29C61 /* GLXModuleNetworkServicePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = A1751C72F63A37C55A24913772E635D7 /* GLXModuleNetworkServicePrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		263BB16BB80731E4CDE3876CC39E1E2D /* Pods-LDBusMediatorLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 889F6B5AA2EB72B2955A561545D52849 /* Pods-LDBusMediatorLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B3A9EC183952C33D13385ECB3F71F8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		2C9ADC5454038B286AFA73AFCA8BDC24 /* GLXModuleWebViewServicePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AA221E0B28098ABAC2384A9D47D2A4 /* GLXModuleWebViewServicePrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F4727A7925F1105BBB275CF85704540 /* UIViewController+NavigationTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 343AA5F9D186933B98C0F43B6B3AB529 /* UIViewController+NavigationTip.m */; };
+		302BBCF66C9312BD817A5296AB353BFD /* GLXModuleNetworkVOPrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8304AA9A43EA8B9773E35F9B8165EE38 /* GLXModuleNetworkVOPrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A946B6A44117272923BD4143059CD1F /* GLXModuleFileManagerVOPrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C87B3865756B7712F677EE02C1685 /* GLXModuleFileManagerVOPrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B79B810F3537E8537C7F62B70654B18 /* UIView+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = B37DF8E0EDF90BDDCCAD55A3B0C9F49C /* UIView+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D953F8D7DBBD9D2B50FFD7B131CA985 /* GLXModuleFileManagerServicePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBB4A92C47BF4BA2C70354E7636100F /* GLXModuleFileManagerServicePrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47C0F54D0215152E494841E57F3E373D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		49438AB23A44B18B9F9B5DB2422AAE75 /* GLXModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2930EB822917F4594C1500EB23F541F7 /* GLXModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B6240F2CFEF3D3BBBCD9EABD8DC2A3 /* GLXModuleLocationVOPrt.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF936F484171E695007C9EE4896E47D /* GLXModuleLocationVOPrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EB139FCDB3230B7327DE7B3AB2F506A /* LDBusNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C623F7AB9779028DDA903D26E7B8CA /* LDBusNavigator.m */; };
+		4ED7CF8F1DE46DC4C26071DC2C9B902C /* LDBusMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = E330A45AD26549711D11CB332AACB1AE /* LDBusMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EDB76F3812B51B873DFDD4624E7D444 /* NSDictionary+CustomGetMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = FE116D0DFF3F3D74AAF78B04183F4E39 /* NSDictionary+CustomGetMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5207E6757B49698B735181E87BF0B6C6 /* LDBusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E6811860B31CF035286315565F856A /* LDBusMediator.m */; };
+		5DEA5AE68094FDADB15D1CB1FE61D5A5 /* UIView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F37A1ADEABA7E7912B11B92EEE50194 /* UIView+Custom.m */; };
+		692082BB8FF87C07C10176B04E3A22A7 /* Pods-LDBusMediatorLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE7B4C889D40E2B57167A092B60B679 /* Pods-LDBusMediatorLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6932EA209696A08D8830F0566E00E984 /* LDBusMediatorLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED389E8BA00AAF836DF96D1AAA786CB /* LDBusMediatorLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		743B4FDEDC41553BA0E3A278D6C593D5 /* LDBusConnectorPrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8812C553EF7DEB1C4A0B397F7649D6 /* LDBusConnectorPrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79FC470543ACF6988B3060F47F071F43 /* GLXModuleContactServicePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E3E9B6DDE17228A238C46B895E3D28 /* GLXModuleContactServicePrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EAE94D80625367520E71DB7F55F46AD /* Pods-LDBusMediatorLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D568D895825AB659EBB61FFB62CBB59 /* Pods-LDBusMediatorLibrary_Example-dummy.m */; };
+		9394F10FC036F8AE46F8B0A6BE8F548C /* NSDate+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = B2093E6865C5F58485F9F6CFF8FC103F /* NSDate+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FCB7A4624F28050B1D0FE4562DC392F /* LDBusMediatorLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4614A937FC208D658A1AFAF952F64C2 /* LDBusMediatorLibrary-dummy.m */; };
+		A6ED9092E609D50721085A2FCF5E89F2 /* GLXModuleMemberServicePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B713BBBCD4ECEFA2F2B13050480A166 /* GLXModuleMemberServicePrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE35BA24F106A4E12F33A3B06C99114B /* LDBusMediatorTipViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0F22CB994814D16FB1CBF3B1F61685 /* LDBusMediatorTipViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AEEAB14B86EFEEEBFF785EEA4F25D8B0 /* GLXLandscapeNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCFC20137ED5CEB5EB5D66008B91ADB /* GLXLandscapeNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B756E811828993088EA7987D4EFB4644 /* Pods-LDBusMediatorLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90E2BAAAA525EBDD2E288444B34703 /* Pods-LDBusMediatorLibrary_Tests-dummy.m */; };
+		B8BBD53232A144A74B7B88F01481A796 /* common.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A2EB520CC9273FA10550EC9B5927CB5 /* common.bundle */; };
+		BAB3A0B2BA694065AD8717C25378BE5E /* GLXPopMenuVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C839C0A97BB7693049BEF9F31F463A /* GLXPopMenuVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C363690C6A467E9B570AB35CEE13489F /* GLXModuleUserInfoServicePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 36ADE89BC93A53954CBE8FDCBF8E77A4 /* GLXModuleUserInfoServicePrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB604776E1104198962E8C9A0D72A29 /* GLXModuleWebViewVOPrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 06AC30829EF68B5CA0DE8C1E3545416B /* GLXModuleWebViewVOPrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA52B0A54858067BFFA0220AB088DD5 /* GLXModuleUserInfoVOPrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD24E2F26A7B015FF19EA27596C9755 /* GLXModuleUserInfoVOPrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EF95149319D2FEB00DB38E67115FE4 /* GLXPopMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EB8B7E035938FBF7F56B6FCC92FC2A /* GLXPopMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44203C005B78680D36D037AAE3AC58E /* GLXModuleContactVOPrt.h in Headers */ = {isa = PBXBuildFile; fileRef = FB176A3A4914134B732E22D7E59D0F70 /* GLXModuleContactVOPrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E62D20B660949467E54BB5239C10129F /* GLXModuleLocationServicePrt.h in Headers */ = {isa = PBXBuildFile; fileRef = 77460C60B34B516F761C1591833B2F9D /* GLXModuleLocationServicePrt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9478ADE7FEA996025B072E41394F1C7 /* NSDate+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 089995A6560312BA06D95E09D41546E2 /* NSDate+Custom.m */; };
+		EB2222C72BA470981D237123A6EC1405 /* LDBusMediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745963C9A4292D25A23C93BABF2EEB2F /* LDBusMediatorTipViewController.m */; };
+		EEB6C1A37A937CE50AB0793BC05C3C44 /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = D4424EA94E8698D7647C14FEB662D62D /* NSString+Custom.m */; };
+		F2C2A97547AF9D64BD8A42329E923632 /* GLXLandscapeNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE812F6BDB021064843A3CCA7C22484 /* GLXLandscapeNavigationViewController.m */; };
+		F636784F8134E5FAEEFFE019552629BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		F67226931EA53E1E3F73D5F2D9C4DF1C /* GLXPopMenuVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F9EDEDC5F984806E527FD623DBD8A7 /* GLXPopMenuVO.m */; };
+		F8B5B10D4A1993F36CC93EEDA9E4BCE1 /* UIViewController+NavigationTip.h in Headers */ = {isa = PBXBuildFile; fileRef = 746E983002C33258DC1ECD4B6C1B0F1E /* UIViewController+NavigationTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA037A7A12FD648C2BFFEF102B67C936 /* NSDictionary+CustomGetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8991C76F911C6B99110E81282DC2654D /* NSDictionary+CustomGetMethod.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8E524FEF37802D586A53DE4FF7053F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E75C2AFE982281FDFDD2E6E3068502F;
+			remoteInfo = LDBusMediatorLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F9EDEDC5F984806E527FD623DBD8A7 /* GLXPopMenuVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLXPopMenuVO.m; sourceTree = "<group>"; };
+		06AC30829EF68B5CA0DE8C1E3545416B /* GLXModuleWebViewVOPrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleWebViewVOPrt.h; sourceTree = "<group>"; };
+		089995A6560312BA06D95E09D41546E2 /* NSDate+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Custom.m"; sourceTree = "<group>"; };
+		095806E9255A9193B03F534AE55AE00D /* Pods-LDBusMediatorLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDBusMediatorLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F1FE7B5295FCDE36170FE9D64A7A52B /* LDBusMediatorLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LDBusMediatorLibrary.modulemap; sourceTree = "<group>"; };
+		10C839C0A97BB7693049BEF9F31F463A /* GLXPopMenuVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXPopMenuVO.h; sourceTree = "<group>"; };
+		1363574FDD979DF5039CB74E1DDE8DDC /* Pods-LDBusMediatorLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDBusMediatorLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1E0F22CB994814D16FB1CBF3B1F61685 /* LDBusMediatorTipViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDBusMediatorTipViewController.h; sourceTree = "<group>"; };
+		24E3E9B6DDE17228A238C46B895E3D28 /* GLXModuleContactServicePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleContactServicePrt.h; sourceTree = "<group>"; };
+		2930EB822917F4594C1500EB23F541F7 /* GLXModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModule.h; sourceTree = "<group>"; };
+		2A2EB520CC9273FA10550EC9B5927CB5 /* common.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = common.bundle; sourceTree = "<group>"; };
+		2B713BBBCD4ECEFA2F2B13050480A166 /* GLXModuleMemberServicePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleMemberServicePrt.h; sourceTree = "<group>"; };
+		2ED389E8BA00AAF836DF96D1AAA786CB /* LDBusMediatorLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDBusMediatorLibrary-umbrella.h"; sourceTree = "<group>"; };
+		343AA5F9D186933B98C0F43B6B3AB529 /* UIViewController+NavigationTip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationTip.m"; sourceTree = "<group>"; };
+		36ADE89BC93A53954CBE8FDCBF8E77A4 /* GLXModuleUserInfoServicePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleUserInfoServicePrt.h; sourceTree = "<group>"; };
+		3B8812C553EF7DEB1C4A0B397F7649D6 /* LDBusConnectorPrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDBusConnectorPrt.h; sourceTree = "<group>"; };
+		3D568D895825AB659EBB61FFB62CBB59 /* Pods-LDBusMediatorLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDBusMediatorLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		46ACFDE5C7FA296F1D37170D599A0051 /* UIColor+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Custom.m"; sourceTree = "<group>"; };
+		4B616D9E71DA86542B46ADDAB32370BC /* UIColor+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Custom.h"; sourceTree = "<group>"; };
+		4BFCA26483C713AE6F36FDC4F47BF17A /* Pods-LDBusMediatorLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LDBusMediatorLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		505A6468F976DBD5EC03E0F26FEE4FD3 /* Pods-LDBusMediatorLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDBusMediatorLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54C7C534223C95E6E303CBD3A3400A89 /* Pods-LDBusMediatorLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDBusMediatorLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		57E6811860B31CF035286315565F856A /* LDBusMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDBusMediator.m; sourceTree = "<group>"; };
+		59E8CB8EE5F6DFA0ED56C7AE15956AF0 /* Pods-LDBusMediatorLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LDBusMediatorLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		5BC01FDC38A36FC6BEE706817C0ADEF5 /* Pods-LDBusMediatorLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDBusMediatorLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DD24E2F26A7B015FF19EA27596C9755 /* GLXModuleUserInfoVOPrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleUserInfoVOPrt.h; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61E6D845E075B79C0BEC5DB4399D423D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EB8B7E035938FBF7F56B6FCC92FC2A /* GLXPopMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXPopMenuView.h; sourceTree = "<group>"; };
+		6CCFC20137ED5CEB5EB5D66008B91ADB /* GLXLandscapeNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXLandscapeNavigationViewController.h; sourceTree = "<group>"; };
+		6CE7B4C889D40E2B57167A092B60B679 /* Pods-LDBusMediatorLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDBusMediatorLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		6DECCB904DE2B74A84F76498E3609DC7 /* Pods-LDBusMediatorLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDBusMediatorLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		745963C9A4292D25A23C93BABF2EEB2F /* LDBusMediatorTipViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDBusMediatorTipViewController.m; sourceTree = "<group>"; };
+		746E983002C33258DC1ECD4B6C1B0F1E /* UIViewController+NavigationTip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationTip.h"; sourceTree = "<group>"; };
+		75C623F7AB9779028DDA903D26E7B8CA /* LDBusNavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LDBusNavigator.m; sourceTree = "<group>"; };
+		75FDAA5B3C1B583858D53DF8070C2E1B /* Pods-LDBusMediatorLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDBusMediatorLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
+		77460C60B34B516F761C1591833B2F9D /* GLXModuleLocationServicePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleLocationServicePrt.h; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FE812F6BDB021064843A3CCA7C22484 /* GLXLandscapeNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLXLandscapeNavigationViewController.m; sourceTree = "<group>"; };
+		812A23D5CEE28DFA6A7F642A96AE2378 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8304AA9A43EA8B9773E35F9B8165EE38 /* GLXModuleNetworkVOPrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleNetworkVOPrt.h; sourceTree = "<group>"; };
+		839C87B3865756B7712F677EE02C1685 /* GLXModuleFileManagerVOPrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleFileManagerVOPrt.h; sourceTree = "<group>"; };
+		889F6B5AA2EB72B2955A561545D52849 /* Pods-LDBusMediatorLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDBusMediatorLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8981D94E06E024FF1C9D0CE6AE1088F2 /* NSString+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Custom.h"; sourceTree = "<group>"; };
+		8991C76F911C6B99110E81282DC2654D /* NSDictionary+CustomGetMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CustomGetMethod.m"; sourceTree = "<group>"; };
+		8EAE0C88F2AB738C7B56650C68C7DE0D /* LDBusMediatorLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDBusMediatorLibrary.xcconfig; sourceTree = "<group>"; };
+		8F90E2BAAAA525EBDD2E288444B34703 /* Pods-LDBusMediatorLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDBusMediatorLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B6B64ABD12A216C8DB138EA7AC8AE3 /* Pods_LDBusMediatorLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LDBusMediatorLibrary_Tests.framework; path = "Pods-LDBusMediatorLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F37A1ADEABA7E7912B11B92EEE50194 /* UIView+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Custom.m"; sourceTree = "<group>"; };
+		A0BF6F4CC7CBC78C42FE499FDB90DAA9 /* LDBusMediatorLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDBusMediatorLibrary-prefix.pch"; sourceTree = "<group>"; };
+		A1751C72F63A37C55A24913772E635D7 /* GLXModuleNetworkServicePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleNetworkServicePrt.h; sourceTree = "<group>"; };
+		A4614A937FC208D658A1AFAF952F64C2 /* LDBusMediatorLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDBusMediatorLibrary-dummy.m"; sourceTree = "<group>"; };
+		A93F6A7D7479ECE096B7E876AA24D829 /* Pods-LDBusMediatorLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDBusMediatorLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD2925241BFD44BF974A4DAE3D161213 /* GLXPopMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLXPopMenuView.m; sourceTree = "<group>"; };
+		B2093E6865C5F58485F9F6CFF8FC103F /* NSDate+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+Custom.h"; sourceTree = "<group>"; };
+		B37DF8E0EDF90BDDCCAD55A3B0C9F49C /* UIView+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
+		C0D16B0B4D98E1AAE2AAE03685EC4ECD /* Pods-LDBusMediatorLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDBusMediatorLibrary_Example-resources.sh"; sourceTree = "<group>"; };
+		C2AA221E0B28098ABAC2384A9D47D2A4 /* GLXModuleWebViewServicePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleWebViewServicePrt.h; sourceTree = "<group>"; };
+		C694DEB6CE1B124695EA4E5312D2ECA4 /* LDBusMediatorLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LDBusMediatorLibrary.framework; path = LDBusMediatorLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4424EA94E8698D7647C14FEB662D62D /* NSString+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Custom.m"; sourceTree = "<group>"; };
+		D9708F240DB0D8553A53342EE2F7C1D5 /* Pods-LDBusMediatorLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDBusMediatorLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAF936F484171E695007C9EE4896E47D /* GLXModuleLocationVOPrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleLocationVOPrt.h; sourceTree = "<group>"; };
+		E12B5407BBD118FBF4F51865E54C3484 /* Pods-LDBusMediatorLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDBusMediatorLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E330A45AD26549711D11CB332AACB1AE /* LDBusMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDBusMediator.h; sourceTree = "<group>"; };
+		E3F305B22335227FE2053BFCA6E0E325 /* GLXModuleMemberVOPrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleMemberVOPrt.h; sourceTree = "<group>"; };
+		E87CF77B803111F0A3C2CB777AD37A16 /* LDBusNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LDBusNavigator.h; sourceTree = "<group>"; };
+		EBBB4A92C47BF4BA2C70354E7636100F /* GLXModuleFileManagerServicePrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleFileManagerServicePrt.h; sourceTree = "<group>"; };
+		F3C30A0F5A2DD02D2117A900269170B9 /* Pods-LDBusMediatorLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDBusMediatorLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F452257F18F69C4AABF931BF0526D335 /* Pods_LDBusMediatorLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LDBusMediatorLibrary_Example.framework; path = "Pods-LDBusMediatorLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DF87018465AF5C775E4B8C1F3F275D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB176A3A4914134B732E22D7E59D0F70 /* GLXModuleContactVOPrt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLXModuleContactVOPrt.h; sourceTree = "<group>"; };
+		FE116D0DFF3F3D74AAF78B04183F4E39 /* NSDictionary+CustomGetMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CustomGetMethod.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90353E264B0D011A47075647F53D85A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3A9EC183952C33D13385ECB3F71F8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9527A42A2723FC290CF1C8FD95AFA8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C0F54D0215152E494841E57F3E373D /* Foundation.framework in Frameworks */,
+				F636784F8134E5FAEEFFE019552629BF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B918F0CE328041342A43DA0D973D10D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0BEC93229631D49A8CA12CAED8E24A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137C81D96D2135A6CC1BF42CAD1FBD4F /* category */ = {
+			isa = PBXGroup;
+			children = (
+				B2093E6865C5F58485F9F6CFF8FC103F /* NSDate+Custom.h */,
+				089995A6560312BA06D95E09D41546E2 /* NSDate+Custom.m */,
+				FE116D0DFF3F3D74AAF78B04183F4E39 /* NSDictionary+CustomGetMethod.h */,
+				8991C76F911C6B99110E81282DC2654D /* NSDictionary+CustomGetMethod.m */,
+				8981D94E06E024FF1C9D0CE6AE1088F2 /* NSString+Custom.h */,
+				D4424EA94E8698D7647C14FEB662D62D /* NSString+Custom.m */,
+				4B616D9E71DA86542B46ADDAB32370BC /* UIColor+Custom.h */,
+				46ACFDE5C7FA296F1D37170D599A0051 /* UIColor+Custom.m */,
+				B37DF8E0EDF90BDDCCAD55A3B0C9F49C /* UIView+Custom.h */,
+				9F37A1ADEABA7E7912B11B92EEE50194 /* UIView+Custom.m */,
+			);
+			name = category;
+			path = category;
+			sourceTree = "<group>";
+		};
+		1701B5071C4B8307B6C81BDB28309F5F /* GLXModulePrt */ = {
+			isa = PBXGroup;
+			children = (
+				137C81D96D2135A6CC1BF42CAD1FBD4F /* category */,
+				3C95DACF7A839D98622A5912D3FE8718 /* common */,
+				39B17490AE707B6BC8DC043D7EA6AE90 /* GLXContact */,
+				9F4D43EA20FFE470AEEBB0EECC751DC6 /* GLXFileManager */,
+				B061D65D5E475BD75234A6150104F63F /* GLXLocaton */,
+				6F22854442F9715D4C5F8CF6D201C6B6 /* GLXMember */,
+				E5884B9CE4F1942C2908A9A6677F3D2A /* GLXNetwork */,
+				92F8EC6A10A57C8F08EA4D6B8A861609 /* GLXUserInfo */,
+				886550146A33B112E7E199330FE7C007 /* GLXWebView */,
+			);
+			name = GLXModulePrt;
+			path = GLXModulePrt;
+			sourceTree = "<group>";
+		};
+		21419DDEA83F9F2EB4DE982F3DB7CF20 /* Pods-LDBusMediatorLibrary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				812A23D5CEE28DFA6A7F642A96AE2378 /* Info.plist */,
+				4BFCA26483C713AE6F36FDC4F47BF17A /* Pods-LDBusMediatorLibrary_Example.modulemap */,
+				A93F6A7D7479ECE096B7E876AA24D829 /* Pods-LDBusMediatorLibrary_Example-acknowledgements.markdown */,
+				D9708F240DB0D8553A53342EE2F7C1D5 /* Pods-LDBusMediatorLibrary_Example-acknowledgements.plist */,
+				3D568D895825AB659EBB61FFB62CBB59 /* Pods-LDBusMediatorLibrary_Example-dummy.m */,
+				F3C30A0F5A2DD02D2117A900269170B9 /* Pods-LDBusMediatorLibrary_Example-frameworks.sh */,
+				C0D16B0B4D98E1AAE2AAE03685EC4ECD /* Pods-LDBusMediatorLibrary_Example-resources.sh */,
+				6CE7B4C889D40E2B57167A092B60B679 /* Pods-LDBusMediatorLibrary_Example-umbrella.h */,
+				6DECCB904DE2B74A84F76498E3609DC7 /* Pods-LDBusMediatorLibrary_Example.debug.xcconfig */,
+				54C7C534223C95E6E303CBD3A3400A89 /* Pods-LDBusMediatorLibrary_Example.release.xcconfig */,
+			);
+			name = "Pods-LDBusMediatorLibrary_Example";
+			path = "Target Support Files/Pods-LDBusMediatorLibrary_Example";
+			sourceTree = "<group>";
+		};
+		3005045D625E45C418A9F85FB7228ECF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1226E761C3DD5F966A7EE34AA58EF01 /* LDBusMediatorLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		39B17490AE707B6BC8DC043D7EA6AE90 /* GLXContact */ = {
+			isa = PBXGroup;
+			children = (
+				24E3E9B6DDE17228A238C46B895E3D28 /* GLXModuleContactServicePrt.h */,
+				FB176A3A4914134B732E22D7E59D0F70 /* GLXModuleContactVOPrt.h */,
+			);
+			name = GLXContact;
+			path = GLXContact;
+			sourceTree = "<group>";
+		};
+		3C95DACF7A839D98622A5912D3FE8718 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				6CCFC20137ED5CEB5EB5D66008B91ADB /* GLXLandscapeNavigationViewController.h */,
+				7FE812F6BDB021064843A3CCA7C22484 /* GLXLandscapeNavigationViewController.m */,
+				65EB8B7E035938FBF7F56B6FCC92FC2A /* GLXPopMenuView.h */,
+				AD2925241BFD44BF974A4DAE3D161213 /* GLXPopMenuView.m */,
+				10C839C0A97BB7693049BEF9F31F463A /* GLXPopMenuVO.h */,
+				02F9EDEDC5F984806E527FD623DBD8A7 /* GLXPopMenuVO.m */,
+			);
+			name = common;
+			path = common;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		527F08317F02191B95B4B209E98E732C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8DF87018465AF5C775E4B8C1F3F275D /* Info.plist */,
+				0F1FE7B5295FCDE36170FE9D64A7A52B /* LDBusMediatorLibrary.modulemap */,
+				8EAE0C88F2AB738C7B56650C68C7DE0D /* LDBusMediatorLibrary.xcconfig */,
+				A4614A937FC208D658A1AFAF952F64C2 /* LDBusMediatorLibrary-dummy.m */,
+				A0BF6F4CC7CBC78C42FE499FDB90DAA9 /* LDBusMediatorLibrary-prefix.pch */,
+				2ED389E8BA00AAF836DF96D1AAA786CB /* LDBusMediatorLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LDBusMediatorLibrary";
+			sourceTree = "<group>";
+		};
+		52FDB8442A42474BB6147AAF81857B79 /* LDBusMediatorLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				2930EB822917F4594C1500EB23F541F7 /* GLXModule.h */,
+				3B8812C553EF7DEB1C4A0B397F7649D6 /* LDBusConnectorPrt.h */,
+				E330A45AD26549711D11CB332AACB1AE /* LDBusMediator.h */,
+				57E6811860B31CF035286315565F856A /* LDBusMediator.m */,
+				1E0F22CB994814D16FB1CBF3B1F61685 /* LDBusMediatorTipViewController.h */,
+				745963C9A4292D25A23C93BABF2EEB2F /* LDBusMediatorTipViewController.m */,
+				E87CF77B803111F0A3C2CB777AD37A16 /* LDBusNavigator.h */,
+				75C623F7AB9779028DDA903D26E7B8CA /* LDBusNavigator.m */,
+				746E983002C33258DC1ECD4B6C1B0F1E /* UIViewController+NavigationTip.h */,
+				343AA5F9D186933B98C0F43B6B3AB529 /* UIViewController+NavigationTip.m */,
+				1701B5071C4B8307B6C81BDB28309F5F /* GLXModulePrt */,
+			);
+			name = LDBusMediatorLibrary;
+			path = LDBusMediatorLibrary;
+			sourceTree = "<group>";
+		};
+		6F22854442F9715D4C5F8CF6D201C6B6 /* GLXMember */ = {
+			isa = PBXGroup;
+			children = (
+				2B713BBBCD4ECEFA2F2B13050480A166 /* GLXModuleMemberServicePrt.h */,
+				E3F305B22335227FE2053BFCA6E0E325 /* GLXModuleMemberVOPrt.h */,
+			);
+			name = GLXMember;
+			path = GLXMember;
+			sourceTree = "<group>";
+		};
+		7077818283301148B888505DB04D5EE1 /* LDBusMediatorLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				2A2EB520CC9273FA10550EC9B5927CB5 /* common.bundle */,
+			);
+			name = LDBusMediatorLibrary;
+			path = LDBusMediatorLibrary;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3005045D625E45C418A9F85FB7228ECF /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				906ED368141B9D1B942EB56D2587A092 /* Products */,
+				AEB78A91C9EBCBE47D9BB9B5EB4298A9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83C0A261C1CF99A41BE6F3FE9F30505F /* Pods-LDBusMediatorLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61E6D845E075B79C0BEC5DB4399D423D /* Info.plist */,
+				59E8CB8EE5F6DFA0ED56C7AE15956AF0 /* Pods-LDBusMediatorLibrary_Tests.modulemap */,
+				505A6468F976DBD5EC03E0F26FEE4FD3 /* Pods-LDBusMediatorLibrary_Tests-acknowledgements.markdown */,
+				095806E9255A9193B03F534AE55AE00D /* Pods-LDBusMediatorLibrary_Tests-acknowledgements.plist */,
+				8F90E2BAAAA525EBDD2E288444B34703 /* Pods-LDBusMediatorLibrary_Tests-dummy.m */,
+				E12B5407BBD118FBF4F51865E54C3484 /* Pods-LDBusMediatorLibrary_Tests-frameworks.sh */,
+				75FDAA5B3C1B583858D53DF8070C2E1B /* Pods-LDBusMediatorLibrary_Tests-resources.sh */,
+				889F6B5AA2EB72B2955A561545D52849 /* Pods-LDBusMediatorLibrary_Tests-umbrella.h */,
+				5BC01FDC38A36FC6BEE706817C0ADEF5 /* Pods-LDBusMediatorLibrary_Tests.debug.xcconfig */,
+				1363574FDD979DF5039CB74E1DDE8DDC /* Pods-LDBusMediatorLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-LDBusMediatorLibrary_Tests";
+			path = "Target Support Files/Pods-LDBusMediatorLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		886550146A33B112E7E199330FE7C007 /* GLXWebView */ = {
+			isa = PBXGroup;
+			children = (
+				C2AA221E0B28098ABAC2384A9D47D2A4 /* GLXModuleWebViewServicePrt.h */,
+				06AC30829EF68B5CA0DE8C1E3545416B /* GLXModuleWebViewVOPrt.h */,
+			);
+			name = GLXWebView;
+			path = GLXWebView;
+			sourceTree = "<group>";
+		};
+		906ED368141B9D1B942EB56D2587A092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C694DEB6CE1B124695EA4E5312D2ECA4 /* LDBusMediatorLibrary.framework */,
+				F452257F18F69C4AABF931BF0526D335 /* Pods_LDBusMediatorLibrary_Example.framework */,
+				94B6B64ABD12A216C8DB138EA7AC8AE3 /* Pods_LDBusMediatorLibrary_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92F8EC6A10A57C8F08EA4D6B8A861609 /* GLXUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				36ADE89BC93A53954CBE8FDCBF8E77A4 /* GLXModuleUserInfoServicePrt.h */,
+				5DD24E2F26A7B015FF19EA27596C9755 /* GLXModuleUserInfoVOPrt.h */,
+			);
+			name = GLXUserInfo;
+			path = GLXUserInfo;
+			sourceTree = "<group>";
+		};
+		9F4D43EA20FFE470AEEBB0EECC751DC6 /* GLXFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB4A92C47BF4BA2C70354E7636100F /* GLXModuleFileManagerServicePrt.h */,
+				839C87B3865756B7712F677EE02C1685 /* GLXModuleFileManagerVOPrt.h */,
+			);
+			name = GLXFileManager;
+			path = GLXFileManager;
+			sourceTree = "<group>";
+		};
+		A34E53BF11D2C31B061534013154CCF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7077818283301148B888505DB04D5EE1 /* LDBusMediatorLibrary */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AEB78A91C9EBCBE47D9BB9B5EB4298A9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21419DDEA83F9F2EB4DE982F3DB7CF20 /* Pods-LDBusMediatorLibrary_Example */,
+				83C0A261C1CF99A41BE6F3FE9F30505F /* Pods-LDBusMediatorLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B061D65D5E475BD75234A6150104F63F /* GLXLocaton */ = {
+			isa = PBXGroup;
+			children = (
+				77460C60B34B516F761C1591833B2F9D /* GLXModuleLocationServicePrt.h */,
+				DAF936F484171E695007C9EE4896E47D /* GLXModuleLocationVOPrt.h */,
+			);
+			name = GLXLocaton;
+			path = GLXLocaton;
+			sourceTree = "<group>";
+		};
+		D1226E761C3DD5F966A7EE34AA58EF01 /* LDBusMediatorLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				52FDB8442A42474BB6147AAF81857B79 /* LDBusMediatorLibrary */,
+				A34E53BF11D2C31B061534013154CCF7 /* Resources */,
+				527F08317F02191B95B4B209E98E732C /* Support Files */,
+			);
+			name = LDBusMediatorLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E5884B9CE4F1942C2908A9A6677F3D2A /* GLXNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A1751C72F63A37C55A24913772E635D7 /* GLXModuleNetworkServicePrt.h */,
+				8304AA9A43EA8B9773E35F9B8165EE38 /* GLXModuleNetworkVOPrt.h */,
+			);
+			name = GLXNetwork;
+			path = GLXNetwork;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		78DD602F5A8997BD29D37AEEEB7F9030 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEAB14B86EFEEEBFF785EEA4F25D8B0 /* GLXLandscapeNavigationViewController.h in Headers */,
+				49438AB23A44B18B9F9B5DB2422AAE75 /* GLXModule.h in Headers */,
+				79FC470543ACF6988B3060F47F071F43 /* GLXModuleContactServicePrt.h in Headers */,
+				E44203C005B78680D36D037AAE3AC58E /* GLXModuleContactVOPrt.h in Headers */,
+				3D953F8D7DBBD9D2B50FFD7B131CA985 /* GLXModuleFileManagerServicePrt.h in Headers */,
+				3A946B6A44117272923BD4143059CD1F /* GLXModuleFileManagerVOPrt.h in Headers */,
+				E62D20B660949467E54BB5239C10129F /* GLXModuleLocationServicePrt.h in Headers */,
+				49B6240F2CFEF3D3BBBCD9EABD8DC2A3 /* GLXModuleLocationVOPrt.h in Headers */,
+				A6ED9092E609D50721085A2FCF5E89F2 /* GLXModuleMemberServicePrt.h in Headers */,
+				0399CA9EB9DB5F20E6F429B0D51EB337 /* GLXModuleMemberVOPrt.h in Headers */,
+				2531D4307AD0DB4564CB13804AF29C61 /* GLXModuleNetworkServicePrt.h in Headers */,
+				302BBCF66C9312BD817A5296AB353BFD /* GLXModuleNetworkVOPrt.h in Headers */,
+				C363690C6A467E9B570AB35CEE13489F /* GLXModuleUserInfoServicePrt.h in Headers */,
+				CCA52B0A54858067BFFA0220AB088DD5 /* GLXModuleUserInfoVOPrt.h in Headers */,
+				2C9ADC5454038B286AFA73AFCA8BDC24 /* GLXModuleWebViewServicePrt.h in Headers */,
+				CBB604776E1104198962E8C9A0D72A29 /* GLXModuleWebViewVOPrt.h in Headers */,
+				D9EF95149319D2FEB00DB38E67115FE4 /* GLXPopMenuView.h in Headers */,
+				BAB3A0B2BA694065AD8717C25378BE5E /* GLXPopMenuVO.h in Headers */,
+				743B4FDEDC41553BA0E3A278D6C593D5 /* LDBusConnectorPrt.h in Headers */,
+				4ED7CF8F1DE46DC4C26071DC2C9B902C /* LDBusMediator.h in Headers */,
+				6932EA209696A08D8830F0566E00E984 /* LDBusMediatorLibrary-umbrella.h in Headers */,
+				AE35BA24F106A4E12F33A3B06C99114B /* LDBusMediatorTipViewController.h in Headers */,
+				22C51C4F51F497654929995861A98D21 /* LDBusNavigator.h in Headers */,
+				9394F10FC036F8AE46F8B0A6BE8F548C /* NSDate+Custom.h in Headers */,
+				4EDB76F3812B51B873DFDD4624E7D444 /* NSDictionary+CustomGetMethod.h in Headers */,
+				21C4EFC1FE3BCB3300DF7AABA63AE3AC /* NSString+Custom.h in Headers */,
+				0DB6798D5441A367A9DE484932260591 /* UIColor+Custom.h in Headers */,
+				3B79B810F3537E8537C7F62B70654B18 /* UIView+Custom.h in Headers */,
+				F8B5B10D4A1993F36CC93EEDA9E4BCE1 /* UIViewController+NavigationTip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91948C380C0D99E2363B494ACEEC9D6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692082BB8FF87C07C10176B04E3A22A7 /* Pods-LDBusMediatorLibrary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE36AEA950354F64941C210DD3C7F2B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263BB16BB80731E4CDE3876CC39E1E2D /* Pods-LDBusMediatorLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E75C2AFE982281FDFDD2E6E3068502F /* LDBusMediatorLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 552ACA1206E513B5056C2BC8A59AC187 /* Build configuration list for PBXNativeTarget "LDBusMediatorLibrary" */;
+			buildPhases = (
+				4C0AC068C40F6FA97CBBD0BB28C5F09C /* Sources */,
+				9527A42A2723FC290CF1C8FD95AFA8A5 /* Frameworks */,
+				78DD602F5A8997BD29D37AEEEB7F9030 /* Headers */,
+				EB7F8BB03F8686545432D2B75600D23F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDBusMediatorLibrary;
+			productName = LDBusMediatorLibrary;
+			productReference = C694DEB6CE1B124695EA4E5312D2ECA4 /* LDBusMediatorLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		47A4FFB8351CB9F73AD029CA73136843 /* Pods-LDBusMediatorLibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20846E6A0C278B590A3591DED26C5C6B /* Build configuration list for PBXNativeTarget "Pods-LDBusMediatorLibrary_Example" */;
+			buildPhases = (
+				EABB3FA2C15B7C2289AE25E4810D3056 /* Sources */,
+				90353E264B0D011A47075647F53D85A5 /* Frameworks */,
+				91948C380C0D99E2363B494ACEEC9D6A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C1FCE76D4A0088CFA59A76B375A4E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LDBusMediatorLibrary_Example";
+			productName = "Pods-LDBusMediatorLibrary_Example";
+			productReference = F452257F18F69C4AABF931BF0526D335 /* Pods_LDBusMediatorLibrary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADDD9DDA3706914D8A0DFF1216E6D14B /* Pods-LDBusMediatorLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E353FFD991A79F7295ADB1FCEB383D /* Build configuration list for PBXNativeTarget "Pods-LDBusMediatorLibrary_Tests" */;
+			buildPhases = (
+				61D2D67F439C0B4B4C55152A7583743A /* Sources */,
+				B918F0CE328041342A43DA0D973D10D8 /* Frameworks */,
+				EE36AEA950354F64941C210DD3C7F2B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LDBusMediatorLibrary_Tests";
+			productName = "Pods-LDBusMediatorLibrary_Tests";
+			productReference = 94B6B64ABD12A216C8DB138EA7AC8AE3 /* Pods_LDBusMediatorLibrary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 906ED368141B9D1B942EB56D2587A092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E75C2AFE982281FDFDD2E6E3068502F /* LDBusMediatorLibrary */,
+				47A4FFB8351CB9F73AD029CA73136843 /* Pods-LDBusMediatorLibrary_Example */,
+				ADDD9DDA3706914D8A0DFF1216E6D14B /* Pods-LDBusMediatorLibrary_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7F8BB03F8686545432D2B75600D23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BBD53232A144A74B7B88F01481A796 /* common.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C0AC068C40F6FA97CBBD0BB28C5F09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2A97547AF9D64BD8A42329E923632 /* GLXLandscapeNavigationViewController.m in Sources */,
+				0B9ADB339C4ADB72B22AE659C7B85F0E /* GLXPopMenuView.m in Sources */,
+				F67226931EA53E1E3F73D5F2D9C4DF1C /* GLXPopMenuVO.m in Sources */,
+				5207E6757B49698B735181E87BF0B6C6 /* LDBusMediator.m in Sources */,
+				9FCB7A4624F28050B1D0FE4562DC392F /* LDBusMediatorLibrary-dummy.m in Sources */,
+				EB2222C72BA470981D237123A6EC1405 /* LDBusMediatorTipViewController.m in Sources */,
+				4EB139FCDB3230B7327DE7B3AB2F506A /* LDBusNavigator.m in Sources */,
+				E9478ADE7FEA996025B072E41394F1C7 /* NSDate+Custom.m in Sources */,
+				FA037A7A12FD648C2BFFEF102B67C936 /* NSDictionary+CustomGetMethod.m in Sources */,
+				EEB6C1A37A937CE50AB0793BC05C3C44 /* NSString+Custom.m in Sources */,
+				0BE071B09C7CDD93BD90BCF43C85F4E7 /* UIColor+Custom.m in Sources */,
+				5DEA5AE68094FDADB15D1CB1FE61D5A5 /* UIView+Custom.m in Sources */,
+				2F4727A7925F1105BBB275CF85704540 /* UIViewController+NavigationTip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D2D67F439C0B4B4C55152A7583743A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B756E811828993088EA7987D4EFB4644 /* Pods-LDBusMediatorLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABB3FA2C15B7C2289AE25E4810D3056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAE94D80625367520E71DB7F55F46AD /* Pods-LDBusMediatorLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C1FCE76D4A0088CFA59A76B375A4E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LDBusMediatorLibrary;
+			target = 0E75C2AFE982281FDFDD2E6E3068502F /* LDBusMediatorLibrary */;
+			targetProxy = EC8E524FEF37802D586A53DE4FF7053F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689A69D15A69893D3436C1EB24BA7374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C7C534223C95E6E303CBD3A3400A89 /* Pods-LDBusMediatorLibrary_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LDBusMediatorLibrary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDBusMediatorLibrary_Example/Pods-LDBusMediatorLibrary_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LDBusMediatorLibrary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92FE9D7B0891A3911AB71BE5AB7C0478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAE0C88F2AB738C7B56650C68C7DE0D /* LDBusMediatorLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LDBusMediatorLibrary/LDBusMediatorLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LDBusMediatorLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LDBusMediatorLibrary/LDBusMediatorLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LDBusMediatorLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F9E4BBDF592AEADA7582CC5351C3435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAE0C88F2AB738C7B56650C68C7DE0D /* LDBusMediatorLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LDBusMediatorLibrary/LDBusMediatorLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LDBusMediatorLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LDBusMediatorLibrary/LDBusMediatorLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LDBusMediatorLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7C40D480C9D20681DDE64D424ECF3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DECCB904DE2B74A84F76498E3609DC7 /* Pods-LDBusMediatorLibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LDBusMediatorLibrary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDBusMediatorLibrary_Example/Pods-LDBusMediatorLibrary_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LDBusMediatorLibrary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6C910DAC121214CD402585566AB7C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC01FDC38A36FC6BEE706817C0ADEF5 /* Pods-LDBusMediatorLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LDBusMediatorLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDBusMediatorLibrary_Tests/Pods-LDBusMediatorLibrary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LDBusMediatorLibrary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFA57EFE1AE81B58F22B318F587ACD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1363574FDD979DF5039CB74E1DDE8DDC /* Pods-LDBusMediatorLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LDBusMediatorLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LDBusMediatorLibrary_Tests/Pods-LDBusMediatorLibrary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LDBusMediatorLibrary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20846E6A0C278B590A3591DED26C5C6B /* Build configuration list for PBXNativeTarget "Pods-LDBusMediatorLibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C40D480C9D20681DDE64D424ECF3F6 /* Debug */,
+				689A69D15A69893D3436C1EB24BA7374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E353FFD991A79F7295ADB1FCEB383D /* Build configuration list for PBXNativeTarget "Pods-LDBusMediatorLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C910DAC121214CD402585566AB7C2F /* Debug */,
+				DFA57EFE1AE81B58F22B318F587ACD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		552ACA1206E513B5056C2BC8A59AC187 /* Build configuration list for PBXNativeTarget "LDBusMediatorLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FE9D7B0891A3911AB71BE5AB7C0478 /* Debug */,
+				9F9E4BBDF592AEADA7582CC5351C3435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

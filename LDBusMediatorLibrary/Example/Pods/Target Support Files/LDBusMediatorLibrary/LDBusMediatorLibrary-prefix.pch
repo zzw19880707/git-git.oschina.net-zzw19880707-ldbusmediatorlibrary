@@ -1,0 +1,7 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+#import <LDBusMediatorLibrary/LDBusMediator.h>
+#import <LDBusMediatorLibrary/LDBusConnectorPrt.h>
+#import <LDBusMediatorLibrary/GLXModule.h>

@@ -1,0 +1,16 @@
+PODS:
+  - LDBusMediatorLibrary (0.1.2)
+
+DEPENDENCIES:
+  - LDBusMediatorLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  LDBusMediatorLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDBusMediatorLibrary: e4784461946365107a8ea37bc502971cfc452692
+
+PODFILE CHECKSUM: 3c1f201fcb3c35e056187acd51eaf8ef7f9452b3
+
+COCOAPODS: 1.1.1

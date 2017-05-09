@@ -1,0 +1,6 @@
+framework module Pods_LDBusMediatorLibrary_Tests {
+  umbrella header "Pods-LDBusMediatorLibrary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
